@@ -21,13 +21,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager" selected="JUnit.Springboot02ConfigApplicationTests.contextLoads">
+  <component name="RunManager" selected="Spring Boot.Springboot02ConfigApplication">
     <configuration name="Springboot02ConfigApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-02-config" />
       <extension name="coverage">
@@ -69,6 +73,7 @@
       <updated>1600217254361</updated>
       <workItem from="1600217262255" duration="3965000" />
       <workItem from="1600237021781" duration="1797000" />
+      <workItem from="1600260733532" duration="4527000" />
     </task>
     <servers />
   </component>
@@ -80,22 +85,38 @@
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
     <state x="1128" y="237" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1042@0.23.1792.1042" timestamp="1600220909242" />
-    <state width="766" height="490" key="GridCell.Tab.0.bottom" timestamp="1600224436936">
+    <state width="909" height="490" key="GridCell.Tab.0.bottom" timestamp="1600310637620">
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
-    <state width="766" height="490" key="GridCell.Tab.0.bottom/0.23.1792.1042@0.23.1792.1042" timestamp="1600224436936" />
-    <state width="766" height="490" key="GridCell.Tab.0.center" timestamp="1600224436935">
+    <state width="909" height="490" key="GridCell.Tab.0.bottom/0.23.1792.1042@0.23.1792.1042" timestamp="1600310637620" />
+    <state width="909" height="490" key="GridCell.Tab.0.center" timestamp="1600310637602">
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
-    <state width="766" height="490" key="GridCell.Tab.0.center/0.23.1792.1042@0.23.1792.1042" timestamp="1600224436935" />
-    <state width="766" height="490" key="GridCell.Tab.0.left" timestamp="1600224436934">
+    <state width="909" height="490" key="GridCell.Tab.0.center/0.23.1792.1042@0.23.1792.1042" timestamp="1600310637602" />
+    <state width="909" height="490" key="GridCell.Tab.0.left" timestamp="1600310637601">
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
-    <state width="766" height="490" key="GridCell.Tab.0.left/0.23.1792.1042@0.23.1792.1042" timestamp="1600224436934" />
-    <state width="766" height="490" key="GridCell.Tab.0.right" timestamp="1600224436936">
+    <state width="909" height="490" key="GridCell.Tab.0.left/0.23.1792.1042@0.23.1792.1042" timestamp="1600310637601" />
+    <state width="909" height="490" key="GridCell.Tab.0.right" timestamp="1600310637619">
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
-    <state width="766" height="490" key="GridCell.Tab.0.right/0.23.1792.1042@0.23.1792.1042" timestamp="1600224436936" />
+    <state width="909" height="490" key="GridCell.Tab.0.right/0.23.1792.1042@0.23.1792.1042" timestamp="1600310637619" />
+    <state width="909" height="490" key="GridCell.Tab.1.bottom" timestamp="1600310637621">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="909" height="490" key="GridCell.Tab.1.bottom/0.23.1792.1042@0.23.1792.1042" timestamp="1600310637621" />
+    <state width="909" height="490" key="GridCell.Tab.1.center" timestamp="1600310637620">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="909" height="490" key="GridCell.Tab.1.center/0.23.1792.1042@0.23.1792.1042" timestamp="1600310637620" />
+    <state width="909" height="490" key="GridCell.Tab.1.left" timestamp="1600310637620">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="909" height="490" key="GridCell.Tab.1.left/0.23.1792.1042@0.23.1792.1042" timestamp="1600310637620" />
+    <state width="909" height="490" key="GridCell.Tab.1.right" timestamp="1600310637621">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="909" height="490" key="GridCell.Tab.1.right/0.23.1792.1042@0.23.1792.1042" timestamp="1600310637621" />
     <state x="968" y="286" key="IDE.errors.dialog" timestamp="1600221155944">
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
@@ -104,5 +125,9 @@
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
     <state x="795" y="183" key="SettingsEditor/0.23.1792.1042@0.23.1792.1042" timestamp="1600221420719" />
+    <state x="421" y="351" key="new project wizard" timestamp="1600310634114">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state x="421" y="351" key="new project wizard/0.23.1792.1042@0.23.1792.1042" timestamp="1600310634114" />
   </component>
 </project>
