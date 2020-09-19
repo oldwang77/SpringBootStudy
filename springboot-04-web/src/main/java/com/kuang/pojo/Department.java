@@ -8,11 +8,11 @@ import lombok.NoArgsConstructor;
 // 101 教学部
 public class Department {
     private Integer id;
-    private String department;
+    private String departmentName;
 
-    public Department(Integer id, String department) {
+    public Department(Integer id, String departmentName) {
         this.id = id;
-        this.department = department;
+        this.departmentName = departmentName;
     }
 
     public Integer getId() {
@@ -23,19 +23,19 @@ public class Department {
         this.id = id;
     }
 
-    public String getDepartment() {
-        return department;
+    public String getDepartmentName() {
+        return departmentName;
     }
 
-    public void setDepartment(String department) {
-        this.department = department;
+    public void setDepartmentName(String departmentName) {
+        this.departmentName = departmentName;
     }
 
     @Override
     public String toString() {
         return "Department{" +
                 "id=" + id +
-                ", department='" + department + '\'' +
+                ", departmentName='" + departmentName + '\'' +
                 '}';
     }
 }

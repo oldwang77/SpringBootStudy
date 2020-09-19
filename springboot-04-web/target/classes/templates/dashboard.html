@@ -44,15 +44,16 @@
 	<body>
 
 		<!--顶部导航栏-->
+		<!--把commons.html中的topbar替换进去-->
 		<div th:replace="~{commons/commons::topbar}"></div>
 
 		<div class="container-fluid">
 			<div class="row">
 
 				<!--侧边栏-->
-				<!--传递参数给组件-->
+				<!--传递参数给组件,传递参数active='main.html'-->
+				<!--将commons.html中的sidebar替换进去-->
 				<div th:replace="~{commons/commons::sidebar(active='main.html')}"></div>
-
 
 				<main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
 					<div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;">
