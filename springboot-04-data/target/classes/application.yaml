@@ -19,3 +19,5 @@ spring:
     testOnBorrow: false
     testOnReturn: false
 
+server:
+  port: 8081
