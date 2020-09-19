@@ -55,6 +55,7 @@
 
 				<main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
 					<form th:action="@{/updateEmp}" method="post">
+						<!--隐藏域-->
 						<input type="hidden" name="id" th:value="${emp.getId()}">
 						<div class="form-group">
 							<label>LastName</label>
@@ -79,6 +80,7 @@
 							<label>department</label>
 							<select class="form-control" name="department.id">
 								<!--我们在controller接收的是一个Employee，所以我们需要提交的是其中的一个属性-->
+								<!--selected默认选中一个值-->
 								<option th:selected="${dept.getId()==emp.getDepartment().getId()}" th:each="dept:${departments}" th:text="${dept.getDepartmentName()}" th:value="${dept.getId()}"></option>
 							</select>
 						</div>

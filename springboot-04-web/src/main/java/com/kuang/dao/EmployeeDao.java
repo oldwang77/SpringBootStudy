@@ -49,7 +49,7 @@ public class EmployeeDao {
     }
 
     // 通过id查询员工
-    public Employee getEmployee(Integer id){return employees.get(id);}
+    public Employee getEmployeeById(Integer id){return employees.get(id);}
 
     // 通过id删除员工
     public void delete(Integer id){
