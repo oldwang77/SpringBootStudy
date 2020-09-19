@@ -20,3 +20,10 @@
 
 ![image-20200919103435957](https://raw.githubusercontent.com/oldwang77/cloudimg/master/data/20200919103436.png)
 
+添加员工
+
+![image-20200919155458980](https://raw.githubusercontent.com/oldwang77/cloudimg/master/data/20200919155459.png)
+
+添加员工的结果
+
+![image-20200919155443567](https://raw.githubusercontent.com/oldwang77/cloudimg/master/data/20200919155445.png)
