@@ -6,14 +6,12 @@ import lombok.NoArgsConstructor;
 
 // 部门表
 // 101 教学部
+@Data
+@NoArgsConstructor
+//@AllArgsConstructor
 public class Department {
     private Integer id;
     private String departmentName;
-
-    public Department(Integer id, String departmentName) {
-        this.id = id;
-        this.departmentName = departmentName;
-    }
 
     public Integer getId() {
         return id;
@@ -31,11 +29,8 @@ public class Department {
         this.departmentName = departmentName;
     }
 
-    @Override
-    public String toString() {
-        return "Department{" +
-                "id=" + id +
-                ", departmentName='" + departmentName + '\'' +
-                '}';
+    public Department(Integer id, String departmentName) {
+        this.id = id;
+        this.departmentName = departmentName;
     }
 }

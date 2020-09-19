@@ -78,7 +78,13 @@
 							<label>department</label>
 							<select class="form-control" name="department.id">
 								<!--我们在controller接收的是一个Employee，所以我们需要提交的是其中的一个属性-->
+								<!--显示的是text，提交的是value信息-->
 								<option th:each="dept:${departments}" th:text="${dept.getDepartmentName()}" th:value="${dept.getId()}">1</option>
+								<!--<option>1</option>-->
+								<!--<option>2</option>-->
+								<!--<option>3</option>-->
+								<!--<option>4</option>-->
+								<!--<option>5</option>-->
 							</select>
 						</div>
 						<div class="form-group">
