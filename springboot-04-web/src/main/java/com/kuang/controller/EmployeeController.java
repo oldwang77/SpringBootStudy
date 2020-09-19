@@ -74,6 +74,7 @@ public class EmployeeController {
         return "redirect:/emps";
     }
 
+    // 注销
     @RequestMapping("/user/logout")
     public String UserLogout(HttpSession session){
         session.invalidate();
