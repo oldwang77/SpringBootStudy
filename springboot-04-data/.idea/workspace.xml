@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="202c468d-72dd-4771-b1ee-7bce0c687cb8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1hjI7qfRy1YDntdolodwC3IQFbv" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager" selected="JUnit.Springboot04DataApplicationTests.contextLoads">
+    <configuration name="Springboot04DataApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-04-data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kuang" />
+      <option name="MAIN_CLASS_NAME" value="com.kuang.Springboot04DataApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot04DataApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-04-data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kuang" />
+      <option name="MAIN_CLASS_NAME" value="com.kuang.Springboot04DataApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot04DataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-04-data" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kuang.Springboot04DataApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Springboot04DataApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.Springboot04DataApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="202c468d-72dd-4771-b1ee-7bce0c687cb8" name="Default Changelist" comment="" />
+      <created>1600517909790</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600517909790</updated>
+      <workItem from="1600517915072" duration="2229000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="893" y="209" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600518520822">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state x="893" y="209" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1042@0.23.1792.1042" timestamp="1600518520822" />
+    <state width="956" height="488" key="GridCell.Tab.0.bottom" timestamp="1600519378587">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="956" height="488" key="GridCell.Tab.0.bottom/0.23.1792.1042@0.23.1792.1042" timestamp="1600519378587" />
+    <state width="956" height="488" key="GridCell.Tab.0.center" timestamp="1600519378587">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="956" height="488" key="GridCell.Tab.0.center/0.23.1792.1042@0.23.1792.1042" timestamp="1600519378587" />
+    <state width="956" height="488" key="GridCell.Tab.0.left" timestamp="1600519378586">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="956" height="488" key="GridCell.Tab.0.left/0.23.1792.1042@0.23.1792.1042" timestamp="1600519378586" />
+    <state width="956" height="488" key="GridCell.Tab.0.right" timestamp="1600519378587">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="956" height="488" key="GridCell.Tab.0.right/0.23.1792.1042@0.23.1792.1042" timestamp="1600519378587" />
+    <state width="956" height="285" key="GridCell.Tab.1.bottom" timestamp="1600518927819">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="956" height="285" key="GridCell.Tab.1.bottom/0.23.1792.1042@0.23.1792.1042" timestamp="1600518927819" />
+    <state width="956" height="285" key="GridCell.Tab.1.center" timestamp="1600518927819">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="956" height="285" key="GridCell.Tab.1.center/0.23.1792.1042@0.23.1792.1042" timestamp="1600518927819" />
+    <state width="956" height="285" key="GridCell.Tab.1.left" timestamp="1600518927818">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="956" height="285" key="GridCell.Tab.1.left/0.23.1792.1042@0.23.1792.1042" timestamp="1600518927818" />
+    <state width="956" height="285" key="GridCell.Tab.1.right" timestamp="1600518927819">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="956" height="285" key="GridCell.Tab.1.right/0.23.1792.1042@0.23.1792.1042" timestamp="1600518927819" />
+  </component>
+</project>
