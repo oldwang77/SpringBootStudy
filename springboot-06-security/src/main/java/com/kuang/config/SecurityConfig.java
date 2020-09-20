@@ -25,11 +25,34 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         // 没有权限默认会到登录页面,需要开启登录的页面
         // forLogin跳转到login页面
-        http.formLogin()
-                .usernameParameter("username")
-                .passwordParameter("password")
-                .loginPage("/toLogin")
-                .loginProcessingUrl("/login");
+        /**
+         *
+         * .successForwardUrl("/index") // 登入成功后，跳转至指定页面
+         * .defaultSuccessUrl("/index")   // 访问指定页面，用户未登入，跳转至登入页面，如果登入成功，跳转至用户访问指定页面，用户访问登入页面，默认的跳转页面
+         *
+         @Override
+         protected void configure(HttpSecurity http) throws Exception {
+         //  允许所有用户访问"/"和"/index.html"
+         http.authorizeRequests()
+         .antMatchers("/", "/index.html").permitAll()
+         .anyRequest().authenticated()   // 其他地址的访问均需验证权限
+         .and()
+         .formLogin()
+         .loginPage("/login.html")   //  登录页
+         //.successForwardUrl("/index") // 登入成功后，跳转至指定页面
+         .defaultSuccessUrl("/index")   // 访问指定页面，用户未登入，跳转至登入页面，如果登入成功，跳转至用户访问指定页面，用户访问登入页面，默认的跳转页面
+         .failureUrl("/login-error.html").permitAll()
+         .and()
+         .logout()
+         .logoutSuccessUrl("/index.html");
+         }
+         */
+
+        http.formLogin()                            // 表单登陆
+                .usernameParameter("username")      // 表单提交username
+                .passwordParameter("password")      // 表单提交password
+                .loginPage("/toLogin")              // 自定义登录页url,默认为/login
+                .loginProcessingUrl("/login");      // 登录请求拦截的url,也就是form表单提交时指定的action
 
         //注销,开启了注销功能,跳到首页
         http.logout().logoutSuccessUrl("/");
@@ -39,8 +62,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         //开启记住我功能: cookie,默认保存两周,自定义接收前端的参数
         http.rememberMe().rememberMeParameter("remember");
-
-
     }
 
     // 认证，springboot 2.1.x 可以直接使用
