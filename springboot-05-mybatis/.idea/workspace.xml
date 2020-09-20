@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34e42b4e-c456-4e43-bf10-999454e2c898" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hktAanPPcLmrCccGj7ZgkHgr4P" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.data.extractors.current.id" value="Comma-separated (CSV)_id" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.Springboot05MybatisApplication">
+    <configuration name="Springboot05MybatisApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-05-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kuang" />
+      <option name="MAIN_CLASS_NAME" value="com.kuang.Springboot05MybatisApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot05MybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-05-mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kuang.Springboot05MybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Springboot05MybatisApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34e42b4e-c456-4e43-bf10-999454e2c898" name="Default Changelist" comment="" />
+      <created>1600566774885</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600566774885</updated>
+      <workItem from="1600566780833" duration="3701000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="734" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600568454163">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state x="734" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1042@0.23.1792.1042" timestamp="1600568454163" />
+    <state width="1040" height="285" key="GridCell.Tab.0.bottom" timestamp="1600571089312">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="1040" height="285" key="GridCell.Tab.0.bottom/0.23.1792.1042@0.23.1792.1042" timestamp="1600571089312" />
+    <state width="1040" height="285" key="GridCell.Tab.0.center" timestamp="1600571089311">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="1040" height="285" key="GridCell.Tab.0.center/0.23.1792.1042@0.23.1792.1042" timestamp="1600571089311" />
+    <state width="1040" height="285" key="GridCell.Tab.0.left" timestamp="1600571089310">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="1040" height="285" key="GridCell.Tab.0.left/0.23.1792.1042@0.23.1792.1042" timestamp="1600571089310" />
+    <state width="1040" height="285" key="GridCell.Tab.0.right" timestamp="1600571089311">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="1040" height="285" key="GridCell.Tab.0.right/0.23.1792.1042@0.23.1792.1042" timestamp="1600571089311" />
+    <state width="1040" height="285" key="GridCell.Tab.1.bottom" timestamp="1600571089314">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="1040" height="285" key="GridCell.Tab.1.bottom/0.23.1792.1042@0.23.1792.1042" timestamp="1600571089314" />
+    <state width="1040" height="285" key="GridCell.Tab.1.center" timestamp="1600571089313">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="1040" height="285" key="GridCell.Tab.1.center/0.23.1792.1042@0.23.1792.1042" timestamp="1600571089313" />
+    <state width="1040" height="285" key="GridCell.Tab.1.left" timestamp="1600571089313">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="1040" height="285" key="GridCell.Tab.1.left/0.23.1792.1042@0.23.1792.1042" timestamp="1600571089313" />
+    <state width="1040" height="285" key="GridCell.Tab.1.right" timestamp="1600571089314">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="1040" height="285" key="GridCell.Tab.1.right/0.23.1792.1042@0.23.1792.1042" timestamp="1600571089314" />
+    <state x="688" y="358" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog" timestamp="1600568553656">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state x="688" y="358" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.23.1792.1042@0.23.1792.1042" timestamp="1600568553656" />
+  </component>
+</project>
