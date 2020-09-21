@@ -1,6 +1,9 @@
 package com.kuang.Config;
 
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
+import org.apache.shiro.subject.Subject;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
@@ -54,4 +57,6 @@ public class ShiroConfig {
         bean.setLoginUrl("/toLogin");
         return bean;
     }
+
+
 }
