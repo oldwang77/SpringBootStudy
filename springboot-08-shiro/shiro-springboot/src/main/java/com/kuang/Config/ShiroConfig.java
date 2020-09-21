@@ -49,6 +49,9 @@ public class ShiroConfig {
         filterMap.put("/user/update","authc");
 
         bean.setFilterChainDefinitionMap(filterMap);
+
+        // 如果不满足认证请求，会跳转到登陆页面
+        bean.setLoginUrl("/toLogin");
         return bean;
     }
 }
