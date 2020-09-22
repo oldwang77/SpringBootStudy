@@ -54,6 +54,7 @@ public class ShiroConfig {
         // 必须是user用户，并且拥有add权限，才可以访问
         // 默认登陆的用户没有这个权限
         filterMap.put("/user/add","perms[user:add]");
+        filterMap.put("/user/update","perms[user:update]");
 
         filterMap.put("/user/*","authc");
         bean.setFilterChainDefinitionMap(filterMap);

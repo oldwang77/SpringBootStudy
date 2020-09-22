@@ -5,6 +5,7 @@ import com.kuang.service.UserService;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
+import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.Subject;
@@ -20,9 +21,16 @@ public class UserRealm extends AuthorizingRealm {
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
         System.out.println("执行了=》授权");
 
-        SimpleAuthenticationInfo info = new SimpleAuthenticationInfo();
-        
-        return null;
+        SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
+        // 无论登陆哪一个用户都会有这个方法
+        info.addStringPermission("user:add");
+
+        // 拿到当前用户的信息
+        Subject subject = SecurityUtils.getSubject();
+        User currentUser = (User) subject.getPrincipal();   // 拿到User对象
+        // 设置当前用户的权限，从数据库里面的获取的权限
+        info.addStringPermission(currentUser.getPerms());
+        return info;
     }
 
     // 认证
