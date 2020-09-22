@@ -19,6 +19,9 @@ public class UserRealm extends AuthorizingRealm {
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
         System.out.println("执行了=》授权");
+
+        SimpleAuthenticationInfo info = new SimpleAuthenticationInfo();
+        
         return null;
     }
 
@@ -38,12 +41,12 @@ public class UserRealm extends AuthorizingRealm {
 
         // 连接真实数据库
         User user = userService.queryUserByName(userToken.getUsername());
-        if(user==null){
+        if (user == null) {
             return null;
         }
 
         // 可以加密，MD5加密
         // 密码认证，shiro做
-        return new SimpleAuthenticationInfo("",user.getPwd(),"");
+        return new SimpleAuthenticationInfo(user, user.getPwd(), "");
     }
 }

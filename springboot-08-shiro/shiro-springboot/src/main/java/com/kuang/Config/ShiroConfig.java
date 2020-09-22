@@ -47,14 +47,22 @@ public class ShiroConfig {
          * roles：拥有某个角色权限才能访问
          */
 
+        // 拦截
         Map<String,String> filterMap = new LinkedHashMap<>();
-        filterMap.put("/user/add","authc");
-        filterMap.put("/user/update","authc");
 
+        // 授权
+        // 必须是user用户，并且拥有add权限，才可以访问
+        // 默认登陆的用户没有这个权限
+        filterMap.put("/user/add","perms[user:add]");
+
+        filterMap.put("/user/*","authc");
         bean.setFilterChainDefinitionMap(filterMap);
 
         // 如果不满足认证请求，会跳转到登陆页面
         bean.setLoginUrl("/toLogin");
+
+        // 未授权的页面
+        bean.setUnauthorizedUrl("/noauto");
         return bean;
     }
 

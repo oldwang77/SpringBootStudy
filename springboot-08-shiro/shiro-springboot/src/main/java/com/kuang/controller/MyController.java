@@ -9,6 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class MyController {
@@ -52,5 +53,12 @@ public class MyController {
             model.addAttribute("msg","密码错误");
             return "login";
         }
+    }
+
+    @RequestMapping("/noauto")
+    //表示返回的是字符串，不是页面
+    @ResponseBody
+    public String unauthorized(){
+        return "没有授权，无法访问页面";
     }
 }
