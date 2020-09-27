@@ -16,7 +16,5 @@ class ConsumerServerApplicationTests {
     public void contextLoads() {
 
         userService.bugTicket();
-
     }
-
 }
