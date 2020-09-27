@@ -35,7 +35,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SwaggerDemoApplication">
+  <component name="RunManager" selected="Spring Boot.ProviderServerApplication">
     <configuration name="ConsumerServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consumer-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="nuc.ss.ConsumerServerApplication" />
@@ -71,7 +71,7 @@
       <workItem from="1600851598683" duration="10000" />
       <workItem from="1600851611277" duration="8417000" />
       <workItem from="1601103222661" duration="569000" />
-      <workItem from="1601118386201" duration="2147000" />
+      <workItem from="1601118386201" duration="3727000" />
     </task>
     <servers />
   </component>
@@ -79,6 +79,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1136" y="416" key="#Notifications" timestamp="1601129890847">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state x="1136" y="416" key="#Notifications/0.23.1792.1042@0.23.1792.1042" timestamp="1601129890847" />
     <state x="1066" y="269" key="#com.intellij.ide.util.MemberChooser" timestamp="1600869317563">
       <screen x="0" y="23" width="1792" height="1042" />
     </state>
